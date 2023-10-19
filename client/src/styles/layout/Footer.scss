@@ -1,0 +1,48 @@
+@import '../colors/Colors.scss';
+
+.footer{
+    margin-top: 50px;
+    padding-top: 80px;
+    height: max-content;
+    background-color: $cor-secundaria;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    gap: 30px;
+
+    section {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 80px;
+        align-items: center;
+        width: 100%;
+        
+        overflow: hidden;
+
+        div{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            
+
+        }
+
+        ul{
+            list-style-type: none;
+        }
+    }
+
+    #direitos{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 2px solid $cor-linhas;
+        height: 120px;
+        margin-top: 50px;
+    }
+
+}

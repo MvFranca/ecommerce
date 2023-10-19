@@ -1,0 +1,31 @@
+
+.novosProdutos{
+    padding: 50px 80px 0px 80px;
+    width: 100%;
+    overflow: hidden;
+    gap: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    .listagem{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        overflow-x: scroll;
+    }
+
+    @media screen and (max-width: 830px) {
+        padding: 50px 25px 0px 25px;
+
+        .listagem{
+            justify-content: initial;
+        }
+
+    }
+      
+      
+}
+

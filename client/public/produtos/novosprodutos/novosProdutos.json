@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nome": "Relógio inteligente",
+        "cor": "Preto",
+        "preco": "250,00",
+        "img": "/produtos/novosprodutos/imagem1.webp"
+    },
+    {
+        "id": 2,
+        "nome": "Cesta de pano",
+        "cor": "Misturado",
+        "preco": "80,00",
+        "img": "/produtos/novosprodutos/imagem2.webp"
+    },
+    {
+        "id": 3,
+        "nome": "Urso de Pelúcia",
+        "cor": "Misturado",
+        "preco": "60,00",
+        "img": "/produtos/novosprodutos/imagem3.webp"
+    },
+    {
+        "id": 4,
+        "nome": "Relógio de Mesa",
+        "cor": "Preto",
+        "preco": "44,00",
+        "img": "/produtos/novosprodutos/imagem4.webp"
+    }
+]

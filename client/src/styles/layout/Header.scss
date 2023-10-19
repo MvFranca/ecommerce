@@ -1,0 +1,72 @@
+@import '../colors/Colors.scss';
+
+.cabecalho{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    box-shadow: 5px 5px 5px #000000;
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img{
+            width: 150px;
+        }
+    }
+
+
+    nav{
+        display: flex;
+        margin-right: -20px;
+        
+        a{
+            text-decoration: none;
+            color: #767676;
+            font-size: 1.1em;
+            border-right: 2px solid #76767665;
+            padding: 0 20px;
+            transition: 0.32s all;
+        
+           &:hover{
+                color: #000000;
+           }
+
+            &:last-child{
+                border-right: none;
+            }
+        }
+    }
+
+    button{
+        background-color: transparent;
+        border: none;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        height: max-content;
+    }
+
+    @media screen and (max-width: 830px) {
+
+        padding: 0 25px;
+        
+
+        nav{
+            display: none;
+        }
+
+        button{
+            display: flex;
+        }
+    }
+
+}
+
+
+

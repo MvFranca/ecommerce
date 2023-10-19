@@ -1,0 +1,42 @@
+@import '../colors/Colors.scss';
+
+.carrossel{
+    width: 100%;
+    height: max-content;
+    background-color: $cor-secundaria;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  
+
+    img{
+        width: 100%;
+
+        min-width: 775px;
+    }
+
+    .informacoesLoja{
+        display: flex;
+        width: 100%;
+        height: max-content;
+        justify-content: space-between;
+
+        padding: 50px 80px;
+        align-items: center;
+        background-color: $fundo;
+        border-bottom: 2px solid $cor-secundaria;
+
+        aside{
+            color: #000;
+        }
+    }
+
+    @media screen and (max-width: 830px) {
+        .informacoesLoja{
+        flex-direction: column;
+        padding: 50px 25px;
+        gap: 15px;
+        }
+    }    
+
+}

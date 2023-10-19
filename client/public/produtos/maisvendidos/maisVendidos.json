@@ -1,0 +1,30 @@
+[
+    {
+        "id": 5,
+        "nome": "Boné NewEra",
+        "cor": "Branco e Preto",
+        "preco": "80,00",
+        "img": "/produtos/maisvendidos/imagem5.webp"
+    },
+    {
+        "id": 6,
+        "nome": "Mesa de Chá",
+        "cor": "Cinza",
+        "preco": "180,00",
+        "img": "/produtos/maisvendidos/imagem6.webp"
+    },
+    {
+        "id": 7,
+        "nome": "Fones de Ouvido",
+        "cor": "Rosa",
+        "preco": "50,00",
+        "img": "/produtos/maisvendidos/imagem7.webp"
+    },
+    {
+        "id": 8,
+        "nome": "Óculos de Sol",
+        "cor": "Preto",
+        "preco": "100,00",
+        "img": "/produtos/maisvendidos/imagem8.webp"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 9,
+        "nome": "Vaso de Flores",
+        "cor": "Branco e Preto",
+        "preco": "30,00",
+        "img": "/produtos/ofertas/imagem9.webp"
+    },
+    {
+        "id": 10,
+        "nome": "Mochila",
+        "cor": "Cinza",
+        "preco": "130,00",
+        "img": "/produtos/ofertas/imagem10.webp"
+    },
+    {
+        "id": 11,
+        "nome": "Mochila de Viagem",
+        "cor": "Preto",
+        "preco": "150,00",
+        "img": "/produtos/ofertas/imagem11.webp"
+    },
+    {
+        "id": 12,
+        "nome": "Relógio de Mesa",
+        "cor": "Preto",
+        "preco": "44,00",
+        "img": "/produtos/ofertas/imagem12.webp"
+    }
+]
