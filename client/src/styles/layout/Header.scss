@@ -23,22 +23,29 @@
     nav{
         display: flex;
         margin-right: -20px;
-        
+        box-sizing: border-box;
+
+        div{
+            padding: 3px 25px;
+            border-right: 2px solid #76767665;
+
+            &:last-child{
+                border-right: none;
+            }
+        }
+
         a{
             text-decoration: none;
             color: #767676;
-            font-size: 1.1em;
-            border-right: 2px solid #76767665;
-            padding: 0 20px;
+            font-size: 1em;
+           
+            
             transition: 0.32s all;
         
            &:hover{
                 color: #000000;
            }
 
-            &:last-child{
-                border-right: none;
-            }
         }
     }
 
@@ -58,12 +65,31 @@
         
 
         nav{
-            display: none;
+            position: absolute;
+            right: 45px;
+            top: 60px;
+            display: flex;
+            flex-direction: column;
+            width: max-content;
+            height: max-content;
+            background-color: #fff;
+            border: 2px solid $cor-linhas;
+            padding: 10px 0px;    
+
+            div{
+                border: none;
+            }
         }
 
         button{
             display: flex;
         }
+    }
+
+    .active{
+        color: #000000;
+        border-bottom: 1px solid #000;
+        font-weight: 700;
     }
 
 }

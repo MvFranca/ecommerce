@@ -1,0 +1,91 @@
+@import '../colors/Colors.scss';
+
+.fullproducts{
+    max-width: 70%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+
+    .filtros{
+        height: 150px;
+        display: flex;
+        align-items: end;
+        justify-content: initial;
+        margin-bottom: 40px;
+        gap: 40px;
+
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+
+        
+        select{
+            height: 35px;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+            border: 1px solid $cor-linhas;
+
+
+            &:enabled{
+            border: 1px solid $cor-textos;
+
+            }
+        }
+
+        
+   
+
+    }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow: hidden;
+        row-gap: 10px;
+        div{
+            width: 32%;
+            h3{
+                font-size: 1em;
+            }
+        }
+    }
+
+    
+
+    @media screen and (max-width: 880px) {
+        max-width: 100%;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        
+    .filtros{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: initial;
+
+
+    }
+    }
+
+    @media screen and (max-width: 600px) {
+        .filtros{
+            gap: 10px;
+
+    
+            select{
+                width: 60px;
+            }
+    
+        }
+    }
+}

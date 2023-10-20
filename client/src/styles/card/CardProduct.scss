@@ -1,7 +1,7 @@
 @import '../colors/Colors.scss';
 
 .cardProcuct{
-
+  scroll-snap-align: start;
   
   display: flex;
   flex-direction: column;
@@ -24,11 +24,25 @@
 
     display: flex;
     justify-content: space-between;
+
+    .informacoesProduto{
+      width: 70%;
+    }
+
+    aside{
+      color: $cor-precos;
+    }
+
   }
 
 
   @media screen and (max-width: 930px) {
     min-width: 48%;
+    
+  }
+
+  @media screen and (max-width: 450px) {
+    min-width: 96%;
     
   }
 

@@ -1,0 +1,78 @@
+@import "../colors/Colors.scss";
+
+.sidebar {
+  width: 25%;
+  padding: 30px 0px 0px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  h2 {
+    font-size: 3em;
+    height: 100px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transform: translateY(-30px);
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    li {
+      font-size: 0.95em;
+      width: 100%;
+      color: $cor-precos;
+      padding: 5px 0px;
+      border-bottom: 1px solid $cor-linhas;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      .cores-sidebar {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+      }
+
+      
+
+      .verde {
+        background-color: rgb(26, 255, 87);
+      }
+      .azul {
+        background-color: rgb(10, 237, 253);
+      }
+      .vermelho {
+        background-color: rgb(232, 24, 24);
+      }
+      .rosa {
+        background-color: rgb(255, 28, 244);
+      }
+      .preto {
+        background-color: rgb(0, 0, 0);
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  @media screen and (max-width: 880px) {
+    padding: 20px;
+
+    h2 {
+      height: 60px;
+    }
+
+    section {
+      display: none;
+    }
+  }
+}

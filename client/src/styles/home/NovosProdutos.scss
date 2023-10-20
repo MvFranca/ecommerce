@@ -12,9 +12,21 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        scroll-snap-type: x mandatory;
+
         align-items: center;
         gap: 10px;
         overflow-x: scroll;
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 930px) {
+        .listagem{
+            justify-content: initial;
+        }
     }
 
     @media screen and (max-width: 830px) {
@@ -22,6 +34,7 @@
 
         .listagem{
             justify-content: initial;
+           
         }
 
     }

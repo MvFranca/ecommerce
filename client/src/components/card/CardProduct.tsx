@@ -12,7 +12,7 @@ const CardProduct = ({ src, titulo, preco, cor }: props) => {
     <div className="cardProcuct">
       <img src={src} alt="" />
       <div className="descricaoProduto">
-        <div>
+        <div className="informacoesProduto">
           <h3>{titulo}</h3>
           <aside>{cor}</aside>
         </div>

@@ -28,6 +28,16 @@
 
         aside{
             color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+
+        strong{
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 

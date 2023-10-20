@@ -1,0 +1,14 @@
+@import '../colors/Colors.scss';
+
+.pageProducts{
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+    height: max-content;
+    min-height: 100%;
+    color: $cor-textos;
+
+    @media screen and (max-width: 880px) {
+        flex-direction: column;
+    }
+}
