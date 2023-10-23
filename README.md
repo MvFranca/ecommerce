@@ -11,7 +11,7 @@
 ![127 0 0 1_5173_(iPhone XR)](https://github.com/MvFranca/ecommerce/assets/111403597/325a98fe-0fdb-42b9-a19c-5d3ee01ad1bc)
 
 # Tela de Produtos Mobile
-![image](https://github.com/MvFranca/ecommerce/assets/111403597/65bb286a-7c95-48e9-a797-35d33711f354)
+![127 0 0 1_5173_(iPhone XR) (2)](https://github.com/MvFranca/ecommerce/assets/111403597/1cc1f7f9-a4e8-452b-bdd9-20a3fe508930)
 
 
 
