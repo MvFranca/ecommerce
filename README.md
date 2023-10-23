@@ -5,13 +5,14 @@
 ![image](https://github.com/MvFranca/ecommerce/assets/111403597/83b143fe-6baa-45cc-8cab-2f6691706d17)
 
 # Tela Inicial Mobile
-![127 0 0 1_5173_(iPhone SE) (2)](https://github.com/MvFranca/ecommerce/assets/111403597/62e8890f-b358-45b2-8c96-8ca6fbeaed8a)
+![image](https://github.com/MvFranca/ecommerce/assets/111403597/3c49ad9a-fd3c-41a5-86ab-6ecc43e19449)
 
 # CARROSSEL DE PRODUTOS
-![127 0 0 1_5173_(iPhone XR)](https://github.com/MvFranca/ecommerce/assets/111403597/325a98fe-0fdb-42b9-a19c-5d3ee01ad1bc)
+![image](https://github.com/MvFranca/ecommerce/assets/111403597/99d342e3-d3d0-44cb-909d-1c64d6b43496)
 
 # Tela de Produtos Mobile
-![127 0 0 1_5173_(iPhone XR) (2)](https://github.com/MvFranca/ecommerce/assets/111403597/1cc1f7f9-a4e8-452b-bdd9-20a3fe508930)
+![image](https://github.com/MvFranca/ecommerce/assets/111403597/1c8031e5-2c5e-47b5-8263-d36d1d9c0efc)
+
 
 
 
